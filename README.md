@@ -17,8 +17,8 @@ It can **answer booking-related queries** and **perform calculations**.
 ## **🔹 Setup Instructions**
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/yourusername/LLM_Booking_Analytics_System.git
-cd LLM_Booking_Analytics_System 
+git clone https://github.com/ankushmehta123/LLM-Powered-Booking-Analytics-QA-System.git
+cd LLM-Powered-Booking-Analytics-QA-System
 ```
 
 ### **2️⃣ Setup the Virtual Environment**
@@ -73,8 +73,4 @@ python chatbot.py
 curl -X 'POST' 'http://127.0.0.1:8000/' \
 -H 'Content-Type: application/json' \
 -d '{"query": "What is the highest revenue year?"}'
-
-
-
-
-
+```
