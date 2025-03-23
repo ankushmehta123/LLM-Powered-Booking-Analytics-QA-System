@@ -56,7 +56,23 @@ cd ../frontend
 python chatbot.py
 ```
 
+---
 
+## 🔹 API Endpoints
+
+| **Method** | **Endpoint**            | **Description**                          |
+|-----------|-------------------------|------------------------------------------|
+| `POST`    | `/`                   | Ask a question using RAG                |
+| `GET`     | `/revenue_trends/`       | Get revenue trends (requires `year` & `month`) |
+| `GET`     | `/cancellations/`        | Get cancellations (requires `year`, `month`, `day`) |
+
+### 🔹 Example Query
+
+#### **📌 Ask a question using RAG**
+```sh
+curl -X 'POST' 'http://127.0.0.1:8000/' \
+-H 'Content-Type: application/json' \
+-d '{"query": "What is the highest revenue year?"}'
 
 
 
