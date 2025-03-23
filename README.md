@@ -10,7 +10,7 @@ It can **answer booking-related queries** and **perform calculations**.
 - **Vector Search with FAISS**: Stores embeddings for fast retrieval.
 - **Math Calculation Support**: Can process and return mathematical computations.
 - **FastAPI Backend**: REST API for chatbot queries.
-- **Streamlit Frontend **: Simple UI for chat.
+- **Streamlit Frontend**: Simple UI for chat.
 
 ---
 
@@ -40,6 +40,24 @@ pip install -r requirements.txt
 cd ../frontend
 pip install -r requirements.txt
 ```
+
+---
+
+## **🔹 Running the Application**
+### **1️⃣ Start FastAPI Backend**
+```sh
+cd backend
+uvicorn app:app --host 0.0.0.0 --port 8000 --reload
+```
+
+### **2️⃣ Run the Chatbot (CLI)**
+```sh
+cd ../frontend
+python chatbot.py
+```
+
+
+
 
 
 
